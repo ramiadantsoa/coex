@@ -1,0 +1,124 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3834,        115]
+NotebookOptionsPosition[      3519,        100]
+NotebookOutlinePosition[      3861,        115]
+CellTagsIndexPosition[      3818,        112]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"th", " ", "=", " ", "1.75"}], ";", " ", 
+   RowBox[{"fs", "  ", "=", "12"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"gl", "=", "0.6"}], ";"}], " ", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ps", " ", "=", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"Black", ",", 
+        RowBox[{"AbsoluteThickness", "[", "th", "]"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Gray", ",", 
+        RowBox[{"AbsoluteThickness", "[", "th", "]"}]}], "}"}]}], "}"}]}], 
+   ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"as", " ", "=", " ", 
+   RowBox[{"Directive", "[", 
+    RowBox[{
+     RowBox[{"AbsoluteThickness", "[", 
+      RowBox[{"th", "-", "1"}], "]"}], ",", "fs", ",", "Black", ",", 
+     RowBox[{"FontFamily", "\[Rule]", "\"\<Calibri\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"as2", " ", "=", " ", 
+    RowBox[{"Directive", "[", 
+     RowBox[{
+      RowBox[{"AbsoluteThickness", "[", 
+       RowBox[{"th", "-", "1"}], "]"}], ",", "fs", ",", "Gray", ",", 
+      RowBox[{"FontFamily", "\[Rule]", "\"\<Calibri\>\""}]}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ls", " ", "=", " ", 
+   RowBox[{"Directive", "[", 
+    RowBox[{
+     RowBox[{"fs", "+", "2"}], ",", "Black", ",", 
+     RowBox[{"FontFamily", "\[Rule]", "\"\<Calibri\>\""}]}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.673956524697444*^9, 3.673956547246022*^9}, {
+  3.673959586169672*^9, 3.67395958625568*^9}, {3.6739598012469254`*^9, 
+  3.6739598021205363`*^9}, {3.6743060124847045`*^9, 3.674306036636119*^9}, {
+  3.674306746836132*^9, 3.6743067470191507`*^9}, {3.6743083039253993`*^9, 
+  3.674308409816987*^9}, {3.674309211811183*^9, 3.674309224929495*^9}, {
+  3.674310862923423*^9, 3.6743108736824226`*^9}, {3.6747378452615986`*^9, 
+  3.6747378505811305`*^9}, {3.6754501407874165`*^9, 3.6754501421305513`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"tx", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Log", "[", 
+         RowBox[{"{", 
+          RowBox[{
+          "0.0001", ",", "0.001", ",", "0.01", ",", "0.1", ",", "1", ",", 
+           "10"}], "}"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+         "0.0001", ",", "0.001", ",", "0.01", ",", "0.1", ",", "1", ",", 
+          "10"}], "}"}]}], "}"}], "]"}], ",", "Automatic"}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6755149871699543`*^9, 3.6755150621522036`*^9}, {
+   3.675525846427271*^9, 3.6755258790365314`*^9}, {3.675526018961523*^9, 
+   3.6755260222978563`*^9}, {3.6755265603720365`*^9, 3.6755265698679857`*^9}, 
+   3.67552680885627*^9}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.674308115031728*^9, 3.674308117965021*^9}}]
+},
+WindowSize->{759, 835},
+WindowMargins->{{Automatic, 6}, {86, Automatic}},
+FrontEndVersion->"10.1 for Microsoft Windows (64-bit) (March 23, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2073, 52, 212, "Input"],
+Cell[2634, 74, 786, 21, 129, "Input"],
+Cell[3423, 97, 92, 1, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
